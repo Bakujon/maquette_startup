@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "raleway";
+    src: url(../font/Raleway-VariableFont_wght.ttf);
+}
+
+*{
+    font-family: "raleway";
+    margin: 0;
+    padding: 0;
+}
+#menuHeader{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+#menuHeader label{
+    padding: 1rem;
+}
+#navmenu{
+    list-style-type: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+    top: 61px;
+    right: 0;
+}
+#imagemac{
+    background-image: url(../img/mac.jpg);
+    padding-top: 20rem;
+    padding-left: 4rem;
+    width: 100%;
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+#logo{
+    padding: 1rem;
+}
+
+#checkbox{ 
+    display: none;
+}
+#checkbox:checked ~ #navmenu{
+    max-height: 100vh;
+}
+
+
+#texteimportant{
+    color: white;
+}
+
+#texteimportant h2{
+    font-size: 4rem;
+}
+#texteimportant h3{
+    font-size: 1.5rem;
+}
+
+#grosplantextemac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#texteimportant p{
+    color: black;
+    background-color:#b5c1cfa6  ;
+    width: 20vh;
+    height: 3vh;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+#reseaux{
+    padding-top: 4rem;
+    color: #b5c1cfa6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:576px) {
+    #menuHeader ul{
+        position: static;
+        width: fit-content;
+        flex-direction: row;
+        
+    }
+    #menuHeader label{
+        display: none;
+    }
+}
