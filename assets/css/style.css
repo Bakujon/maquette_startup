@@ -7,6 +7,7 @@
     font-family: "raleway";
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 #menuHeader{
     width: 100%;
@@ -78,17 +79,119 @@
     padding-bottom: 1rem;
 }
 #reseaux{
-    padding-top: 4rem;
+    padding-top: 8rem;
     color: #b5c1cfa6;
 }
+#aboutthecompany h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 8rem;
+}
+#aboutthecompany h4{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+#rpsd{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+#rpsd p{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+#rpsd i{
+    font-size: 4rem;
+    padding-bottom:2rem ;
+}
+#wkd{
+    background-color: #F1F1F1;
+    padding-bottom: 10rem;
+}
+#wkd h2{
+    padding-top: 7rem;
+    margin-bottom: 1rem;
+}
+#wkd h3{
+    background-color: black;
+    color: white;
+    width: fit-content;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+#wkd p{
+    padding-bottom: 2rem;
 
 
+}
+#imagebuilding{
+    background-image: url(../img/phone_buildings.jpg);
+    height: 30vh;
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 2rem;
+    padding-right: 2rem;
 
+    border-radius: 59px 59px 59px 59px;
+-webkit-border-radius: 59px 59px 59px 59px;
+-moz-border-radius: 59px 59px 59px 59px;
+}
+#imagebuilding img{
+    padding-top: 3rem;
+    width: 100%;
+    padding-bottom: 5rem;
+}
+#theteam{
+    
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+}
+#theteam2{
+    text-align: center;
+    justify-content: center;
+}
+#theteam h2{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+#theteam2 p{
+    margin-bottom: 4rem;
+}
+#contactteam{
+    background-color: #F1F1F1;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+#theteam3 h2{
+    margin-left: 2rem;
+}
+#theteam3 p{
+    margin-left: 2rem;
+}
+.theteam3 h3{
+    font-size: 1rem;
+    color: gray;
+    margin-bottom: 2rem;
+}
 
-
-
-
-
+.card{
+    box-shadow: 0px 0px 7px 3px rgba(97,93,93,0.75);
+-webkit-box-shadow: 0px 0px 7px 3px rgba(97,93,93,0.75);
+-moz-box-shadow: 0px 0px 7px 3px rgba(97,93,93,0.75);
+}
+.card img{
+    width: 100%;
+}
+.johndoe{
+    padding: 2rem;
+}
 
 
 
